@@ -9,7 +9,7 @@
     }
 
     if (!user || !user.email) {
-        window.location.replace("home.html");
+        window.location.replace("index.html");
         return;
     }
 

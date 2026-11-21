@@ -7,7 +7,7 @@ let user = JSON.parse(sessionStorage.getItem("carepoint.session"));
 
 if (!user) {
 
-    window.location.href = "home.html";
+    window.location.href = "index.html";
 
 }
 
@@ -116,7 +116,7 @@ else {
 
         sessionStorage.removeItem("carepoint.session");
 
-        window.location.href = "home.html";
+        window.location.href = "index.html";
 
     });
 

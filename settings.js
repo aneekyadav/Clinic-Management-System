@@ -11,7 +11,7 @@ try {
 
 // Check whether the user is logged in.
 if (!user || !user.email) {
-    window.location.replace("home.html");
+    window.location.replace("index.html");
 } else {
 
     const userName = user.name || user.email.split("@")[0];
@@ -96,7 +96,7 @@ if (!user || !user.email) {
     // Log out the current user.
     function logout() {
         sessionStorage.removeItem("carepoint.session");
-        window.location.href = "home.html";
+        window.location.href = "index.html";
     }
 
     // Run functions when the page loads.

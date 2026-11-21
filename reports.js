@@ -8,7 +8,7 @@
     }
 
     if (!user?.email) {
-        location.replace("home.html");
+        location.replace("index.html");
         return;
     }
 

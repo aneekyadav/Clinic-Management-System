@@ -2,7 +2,7 @@
 let user = JSON.parse(sessionStorage.getItem("carepoint.session"));
 
 if (!user || !user.email) {
-    window.location.href = "home.html";
+    window.location.href = "index.html";
 }
 
 let key = "carepoint.dashboard." + encodeURIComponent(user.email.toLowerCase());
